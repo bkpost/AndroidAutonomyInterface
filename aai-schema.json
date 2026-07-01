@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AAI Message",
+  "type": "object",
+  "required": ["type", "version"],
+  "properties": {
+    "type": { "type": "string" },
+    "version": { "type": "string" },
+    "id": { "type": "string" },
+    "payload": { "type": "object" }
+  },
+  "additionalProperties": false
+}
